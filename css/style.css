@@ -1,0 +1,94 @@
+:root {
+    --brand-color: #141414;
+    }
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* хедер */
+
+.navi {
+    font-family: "Headland One", serif;
+}
+
+.header {
+    background-image: url(img/Rectangle\ 141.png);
+}
+
+    button {
+        background-color: #0B0E66;
+        color: #26C7EA;
+        border: #26C7EA;
+        font-family: "Headland One", serif;
+    }
+
+    .nav-page {
+        color: #94CFFF;
+        font-size: 20px;
+        width: 82px;
+        height: 24px;
+        line-height: 24.2px;
+        font-weight: 600;
+    }
+
+    .golo-span {
+        color: #FFFFFF;
+        font-size: 20px;
+        width: 82px;
+        height: 24px;
+        line-height: 24.2px;
+        font-weight: 300;
+    }
+
+    .on-off {
+        color: #FFFFFF;
+        font-family: "Hammersmith One", sans-serif;
+        width: 30px;
+        height: 20px;
+        font-weight: 400;
+        size: 16px;
+        line-height: 20px;
+    }
+
+    .golo-button {
+        width: 141px;
+        height: 41.69px;
+        font-weight: 400;
+        size: 20px;
+        line-height: 25.05px;
+        border: 3px solid #26C7EA;
+    }
+
+    /* hero section */
+
+    .hero {
+        background-image: url(img/Group\ 48\ 1.png);
+    }
+
+    .hero-text-navi {
+        color: #FFFFFF;
+        width: 298px;
+        height: 96px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .hero-text-ua {
+        color: #FFFFFF;
+        width: 376px;
+        height: 123px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .button-hero {
+        width: 260px;
+        height: 80px;
+        border: 3px solid #26C7EA;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30.06px;
+    }
