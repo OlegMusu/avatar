@@ -20,10 +20,3 @@ button {
   border: none;
   cursor: pointer;
 }
-
-img {
-  display: block;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-}
