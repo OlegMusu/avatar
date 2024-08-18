@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 :root {
     --brand-color: #141414;
     }
@@ -13,14 +19,18 @@ body {
 }
 
 .header {
-    background-image: url(img/Rectangle\ 141.png);
+    background-image: url(pitcures/Rectangle\ 104.jpg);
+    width: 1440px;
+    height: 150px;
+    border: 0px 0px 3px 0px;
 }
 
     button {
         background-color: #0B0E66;
         color: #26C7EA;
-        border: #26C7EA;
+        border: 3px solid #26C7EA;
         font-family: "Headland One", serif;
+        border-radius: 45px 0px;
     }
 
     .nav-page {
@@ -32,13 +42,14 @@ body {
         font-weight: 600;
     }
 
-    .golo-span {
+    .nav-span {
         color: #FFFFFF;
         font-size: 20px;
         width: 82px;
         height: 24px;
         line-height: 24.2px;
         font-weight: 300;
+        border-radius: 35px 0px;
     }
 
     .on-off {
@@ -51,19 +62,27 @@ body {
         line-height: 20px;
     }
 
-    .golo-button {
+    .login-btn {
         width: 141px;
         height: 41.69px;
         font-weight: 400;
         size: 20px;
         line-height: 25.05px;
-        border: 3px solid #26C7EA;
+        border: 2px solid #26C7EA;
+    }
+
+    .trailer {
+        background: url(pitcures/Rectangle\ 10.png);
+        width: 1440px;
+        height: 741px;
     }
 
     /* hero section */
 
     .hero {
-        background-image: url(img/Group\ 48\ 1.png);
+        background-image: url(pitcures/Group\ 48\ 1.png);
+        width: 1440px;
+        height: 740px;
     }
 
     .hero-text-navi {
@@ -91,4 +110,30 @@ body {
         font-weight: 400;
         font-size: 24px;
         line-height: 30.06px;
+    }
+
+    .language-section {
+        background-image: url(pitcures/Rectangle\ 20.jpg);
+        width: 1440px;
+        height: 704px;
+    }
+
+    .navi-item {
+        background-color: rgba(255, 255, 255, 70%);
+        width: 320px;
+        height: 240px;
+    }
+
+    .navi {
+        width: 285px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40.08px;
+    }
+
+    .footer {
+        background: url(pitcures/Rectangle\ 12.png);
+        width: 1440px;
+        height: 223px;
     }
