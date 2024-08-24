@@ -20,6 +20,12 @@ body {
     height: 150px;
 }
 
+.heder-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
     button {
         background-color: #0B0E66;
         color: #26C7EA;
@@ -121,6 +127,8 @@ body {
     }
 
     .footer {
+        background-repeat: no-repeat;
+        background-size: cover;
         background: url(pitcures/Rectangle\ 12.png);
         padding-top: 77px;
         padding-bottom: 25px;
@@ -155,7 +163,10 @@ body {
         border: 3px solid #26C7EA;
         font-weight: 400;
         font-size: 24px;
-        padding: 25px 74px;
+        padding: 25px 18px;
+        display: block;
+        border-radius: 45px 0;
+        margin: 0 auto;
       }
 
       .footer-copyrigts {
@@ -194,4 +205,17 @@ body {
 
       .footer-list {
         width: 645px;
+      }
+
+      .quote-text {
+        text-align: center;
+      }
+
+      .quote-author {
+        text-align: center;
+      }
+
+      .quote-img {
+        display: block;
+        margin: 0 auto;
       }
