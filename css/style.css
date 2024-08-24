@@ -12,11 +12,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/* хедер */
+.container {
+    width: 1032px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
 
-.navi {
-    font-family: "Headland One", serif;
-}
+/* хедер */
 
 .header {
     background-image: url(pitcures/Rectangle\ 104.jpg);
@@ -36,7 +38,6 @@ body {
     .nav-page {
         color: #94CFFF;
         font-size: 20px;
-        width: 82px;
         height: 24px;
         line-height: 24.2px;
         font-weight: 600;
@@ -45,7 +46,6 @@ body {
     .nav-span {
         color: #FFFFFF;
         font-size: 20px;
-        width: 82px;
         height: 24px;
         line-height: 24.2px;
         font-weight: 300;
@@ -55,7 +55,6 @@ body {
     .on-off {
         color: #FFFFFF;
         font-family: "Hammersmith One", sans-serif;
-        width: 30px;
         height: 20px;
         font-weight: 400;
         size: 16px;
@@ -73,7 +72,6 @@ body {
 
     .trailer {
         background: url(pitcures/Rectangle\ 10.png);
-        width: 1440px;
         height: 741px;
     }
 
@@ -81,13 +79,11 @@ body {
 
     .hero {
         background-image: url(pitcures/Group\ 48\ 1.png);
-        width: 1440px;
         height: 740px;
     }
 
     .hero-text-navi {
         color: #FFFFFF;
-        width: 298px;
         height: 96px;
         font-weight: 400;
         font-size: 20px;
@@ -96,7 +92,6 @@ body {
 
     .hero-text-ua {
         color: #FFFFFF;
-        width: 376px;
         height: 123px;
         font-weight: 400;
         font-size: 20px;
@@ -104,7 +99,6 @@ body {
     }
 
     .button-hero {
-        width: 260px;
         height: 80px;
         border: 3px solid #26C7EA;
         font-weight: 400;
@@ -112,20 +106,18 @@ body {
         line-height: 30.06px;
     }
 
-    .language-section {
+    .language {
         background-image: url(pitcures/Rectangle\ 20.jpg);
-        width: 1440px;
         height: 704px;
     }
 
-    .navi-item {
+    .language-item {
         background-color: rgba(255, 255, 255, 70%);
-        width: 320px;
         height: 240px;
     }
 
-    .navi {
-        width: 285px;
+    .language-title {
+        font-family: "Headland One", serif;
         height: 40px;
         font-weight: 400;
         font-size: 32px;
@@ -134,6 +126,19 @@ body {
 
     .footer {
         background: url(pitcures/Rectangle\ 12.png);
-        width: 1440px;
         height: 223px;
     }
+
+    .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+      }
+      
