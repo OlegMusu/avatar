@@ -1,9 +1,3 @@
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
-
 :root {
     --brand-color: #141414;
     }
@@ -24,7 +18,6 @@ body {
     background-image: url(pitcures/Rectangle\ 104.jpg);
     width: 1440px;
     height: 150px;
-    border: 0px 0px 3px 0px;
 }
 
     button {
@@ -33,6 +26,11 @@ body {
         border: 3px solid #26C7EA;
         font-family: "Headland One", serif;
         border-radius: 45px 0px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 38px;
     }
 
     .nav-page {
@@ -71,39 +69,35 @@ body {
     }
 
     .trailer {
-        background: url(pitcures/Rectangle\ 10.png);
         height: 741px;
+        padding: 330px 0;
+        background: url(pitcures/Rectangle\ 10.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* hero section */
 
     .hero {
-        background-image: url(pitcures/Group\ 48\ 1.png);
+        padding: 180px 0;
         height: 740px;
+        background-image: url(pitcures/Group\ 48\ 1.png);
+        background-size: cover;
     }
 
+    .hero-text-ua,
     .hero-text-navi {
         color: #FFFFFF;
-        height: 96px;
         font-weight: 400;
         font-size: 20px;
-        line-height: 24.2px;
-    }
-
-    .hero-text-ua {
-        color: #FFFFFF;
-        height: 123px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24.2px;
+        width: 280px;
     }
 
     .button-hero {
-        height: 80px;
         border: 3px solid #26C7EA;
         font-weight: 400;
         font-size: 24px;
-        line-height: 30.06px;
+        padding: 25px 74px;
     }
 
     .language {
@@ -113,20 +107,23 @@ body {
 
     .language-item {
         background-color: rgba(255, 255, 255, 70%);
-        height: 240px;
+        padding: 36px 0;
+        font-family: "Headland One", serif;
+
     }
 
     .language-title {
         font-family: "Headland One", serif;
-        height: 40px;
         font-weight: 400;
         font-size: 32px;
-        line-height: 40.08px;
+        margin-bottom: 43px;
+        text-align: center;
     }
 
     .footer {
         background: url(pitcures/Rectangle\ 12.png);
-        height: 223px;
+        padding-top: 77px;
+        padding-bottom: 25px;
     }
 
     .visually-hidden {
@@ -142,6 +139,59 @@ body {
         margin: -1px;
       }
       
+      .email-text,
       .footer-text {
         color: #FFFFFF;
+
+      }
+
+      .quote {
+        padding-top: 75px;
+        padding-bottom: 10px;
+        font-family: "Inter", sans-serif;
+      }
+
+      .trailer-watch-btn {
+        border: 3px solid #26C7EA;
+        font-weight: 400;
+        font-size: 24px;
+        padding: 25px 74px;
+      }
+
+      .footer-copyrigts {
+        color: #FFFFFF;
+      }
+
+      .footer-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+      }
+
+      .footer-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #FFFFFF;
+      }
+      .footer-item:nth-child(1) {
+        margin-bottom: 18px;
+      }
+
+      .footer-text {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+      }
+
+      .footer-text::after {
+        content: "";
+        margin-left: 10px;
+        height: 5px;
+        width: 100%;
+        border-bottom: 1px dashed #FFFFFF;
+      }
+
+      .footer-list {
+        width: 645px;
       }
